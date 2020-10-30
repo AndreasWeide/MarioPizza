@@ -1,3 +1,4 @@
 @startuml
-
+class order
+class pizza
 @enduml

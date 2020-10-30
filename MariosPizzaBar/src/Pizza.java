@@ -9,4 +9,10 @@ public class Pizza extends Order {
         this.IngredientsList = stuff;
         this.price = price;
     }
+    /*
+    add function
+    get/set
+    menu + display
+    save data
+     */
 }
