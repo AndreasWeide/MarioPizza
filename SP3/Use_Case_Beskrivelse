@@ -1,0 +1,28 @@
+
+Use Case Beskrivelse:
+- Kunden ønsker et program der kan sortere pizzaer i følgende kategorier:
+    * Type (Pizza)
+    * Bestillingens tidspunkt
+    * Afhentnings tidspunkt
+
+- Overordnet:
+  Der er blevet set meget på funktionalitet, visualisering og simplicitet, da det skulle
+  være det nemmeste for kunden at håndtere og kunne bruge. Ideen var, at når der blev tastet
+  et tal, ville konsollen spytte en ordre og et tidspunkt ud samtidig med et muligt afhentningstidspunkt,
+  alt efter hvilket tal der blev tastet (1 = Margherita || ArrayList.Pizza.Index(0)).
+
+- Fokus:
+  Fokusset har været, at få det til at køre visuelt i konsollen, samt få bestillinger ind i en tekst-fil.
+  Det visuelle, var til for at kunden kunne se de specifikke ordre, for at kunne lave dem
+  i rækkefølge.
+
+- Main Success Scenarie:
+  Ville være at få alle ordre til at fjernes fra konsol, eller afkrydses med flueben eller lignende i tekst-fil,
+  efter afhentning i pizzeria. Tekst-fil og KeyListener taler ikke sammen, desværre.
+
+- Alternative flows:
+  I stedet for hardcodede if-statements & sout's, kunne man have brugt en switch-case, til at bestemme hvilken
+  pizza der skulle laves, selvfølgelig stadig med en KeyListener/KeyPressed funktion. Derudover, kunne man bygge
+  konstruktøren for en 'ordre', ud fra de allerede eksisterende klasser (extends, implements), så en 'Order' skulle
+  indeholde en 'class: pizza', et tidspunkt (Time, TimeStamp, LocalDateTime) og en 'OrderType', ud fra en ArrayListe
+  med pizzaer.

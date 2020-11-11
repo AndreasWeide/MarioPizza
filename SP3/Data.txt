@@ -1,0 +1,6 @@
+
+Hawaii
+Ingredienser: [Tomatsauce, ost, skinke, ananas]
+Pris: 69,-
+Afhentingstidspunkt: 2020-11-11 14:50:00.192
+Order type: OrderTest
